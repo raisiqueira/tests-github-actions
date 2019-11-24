@@ -5,3 +5,6 @@ addAssignees: author
 addReviewers: true
 reviewers:
 - raisiqueira
+
+# numero de revisores (0 adiciona todos da lista)
+numberOfReviewers: 0
