@@ -1,0 +1,7 @@
+# assina o PR para o autor do PR
+addAssignees: author
+
+# Adiciona revisores
+addReviewers: true
+reviewers:
+- raisiqueira
