@@ -1,4 +1,21 @@
+name-template: 'v$NEXT_PATCH_VERSION 🌈'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🔥 Hotfixes'
+    - labels:
+        - 'Type: Hotfix'
+        - 'Priority: Critical'
+  - title: '🚀 Features'
+    labels:
+      - 'feature'
+      - 'Type: Enhancement'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'Type: Bug'
+  - title: '🧰 Maintenance'
+    label: 'Type: Maintenance'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
 template: |
-  ## What’s Changed
+  ## Changes
 
   $CHANGES
