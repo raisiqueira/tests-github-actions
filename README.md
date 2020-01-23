@@ -14,3 +14,7 @@ Repo with tests with GitHub Actions
 ### Create labels for the repo
 
 - https://github.com/lannonbr/issue-label-manager-action (works fine) 🥳
+
+### Create drafter
+
+- https://github.com/marketplace/actions/release-drafter
