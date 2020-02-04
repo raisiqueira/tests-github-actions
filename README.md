@@ -17,4 +17,4 @@ Repo with tests with GitHub Actions
 
 ### Create drafter
 
-- https://github.com/marketplace/actions/release-drafter 🥳
+- https://github.com/marketplace/actions/release-drafter (works fine) 🥳
