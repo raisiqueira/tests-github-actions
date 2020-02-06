@@ -1,21 +1,25 @@
-name-template: 'v$NEXT_PATCH_VERSION 🌈'
-tag-template: 'v$NEXT_PATCH_VERSION'
+name-template: "v$NEXT_PATCH_VERSION"
+tag-template: "v$NEXT_PATCH_VERSION"
 categories:
-  - title: '🔥 Hotfixes'
+  - title: ":fire: Hotfixes"
     labels:
-        - 'Type: Hotfix'
-        - 'Priority: Critical'
-  - title: '🚀 Features'
+      - "Type: Hotfix"
+      - "Priority: Critical"
+  - title: ":sparkles:  New features"
     labels:
-      - 'feature'
-      - 'Type: Enhancement'
-  - title: '🐛 Bug Fixes'
+      - "Type: Feature"
+      - "Type: Release"
+  - title: ":page_facing_up: Documentation"
+      - "Type: Documentation"
+  - title: ":nail_care: Enhancements"
+      - "Type: Enhancement"
+  - title: "🐛 Bug Fixes"
     labels:
-      - 'Type: Bug'
-  - title: '🧰 Maintenance'
-    label: 'Type: Maintenance'
-change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+      - "Type: Bug"
+  - title: ":robort: Dev environment"
+    label: "Type: Maintenance"
+change-template: "- $TITLE @$AUTHOR (#$NUMBER)"
 template: |
   ## Changes
-
   $CHANGES
+  $CONTRIBUTORS
