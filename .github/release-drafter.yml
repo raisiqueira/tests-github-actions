@@ -10,8 +10,10 @@ categories:
       - "Type: Feature"
       - "Type: Release"
   - title: ":page_facing_up: Documentation"
+    labels:
       - "Type: Documentation"
   - title: ":nail_care: Enhancements"
+    labels:
       - "Type: Enhancement"
   - title: "🐛 Bug Fixes"
     labels:
